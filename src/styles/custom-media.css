@@ -1,0 +1,4 @@
+@custom-media --mobile-landscape (max-width: 720px) and (orientation: landscape);
+
+@custom-media --gte-small (min-width: 720px);
+@custom-media --gte-medium (min-width: 1024px);

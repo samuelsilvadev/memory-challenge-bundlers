@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MemoryList /> snapshots should render correctly a list of cards 1`] = `
+<ul
+  class="list"
+>
+  <li>
+    <button
+      class="wrapper"
+    >
+      <span
+        class="innerWrapper"
+      >
+        <span
+          class="head"
+        />
+        <span
+          class="tail"
+        />
+      </span>
+    </button>
+  </li>
+  <li>
+    <button
+      class="wrapper"
+    >
+      <span
+        class="innerWrapper"
+      >
+        <span
+          class="head"
+        />
+        <span
+          class="tail"
+        />
+      </span>
+    </button>
+  </li>
+  <li>
+    <button
+      class="wrapper"
+    >
+      <span
+        class="innerWrapper"
+      >
+        <span
+          class="head"
+        />
+        <span
+          class="tail"
+        />
+      </span>
+    </button>
+  </li>
+  <li>
+    <button
+      class="wrapper"
+    >
+      <span
+        class="innerWrapper"
+      >
+        <span
+          class="head"
+        />
+        <span
+          class="tail"
+        />
+      </span>
+    </button>
+  </li>
+</ul>
+`;

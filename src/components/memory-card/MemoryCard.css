@@ -1,0 +1,50 @@
+.memoryCard.wrapper {
+	background-color: var(--primary-color);
+	border-radius: 0.5rem;
+	border: none;
+	cursor: pointer;
+	height: 100%;
+	perspective: 1000px;
+	width: 100%;
+}
+
+.memoryCard .innerWrapperOpened {
+	transform: rotateY(180deg);
+}
+
+.memoryCard .innerWrapper {
+	border-radius: inherit;
+	display: flex;
+	position: relative;
+	transition: transform 500ms ease;
+	transform-style: preserve-3d;
+	height: inherit;
+	width: inherit;
+}
+
+.memoryCard .head,
+.memoryCard .tail {
+	backface-visibility: hidden;
+	bottom: 0;
+	border-radius: inherit;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.memoryCard .head {
+	background-color: var(--secondary-color);
+	transform: rotateY(0deg);
+	z-index: 1;
+}
+
+.memoryCard .tail {
+	align-items: center;
+	background-color: var(--primary-color);
+	border: 0.2rem solid var(--secondary-color);
+	color: var(--secondary-color);
+	display: flex;
+	justify-content: center;
+	transform: rotateY(180deg);
+}

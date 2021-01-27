@@ -1,0 +1,16 @@
+.main {
+	padding: 0 1.6rem;
+}
+
+@media (--gte-small) {
+	.main {
+		max-width: 70rem;
+		margin: 0 auto;
+	}
+}
+
+@media (--gte-medium) {
+	.main {
+		max-width: 100rem;
+	}
+}

@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<End /> snapshots should render correctly 1`] = `
+<div>
+  <section
+    class="wrapper"
+  >
+    <div
+      class="innerWrapper"
+    >
+      <h1>
+        Congratulations
+      </h1>
+      <dl
+        class="list"
+      >
+        <dt>
+          Moves
+        </dt>
+        <dd>
+          0
+        </dd>
+        <dt>
+          Correct Moves
+        </dt>
+        <dd>
+          0
+        </dd>
+      </dl>
+      <button
+        class="button"
+      >
+        New game
+      </button>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`<End /> snapshots should render correctly if scoreboard is filled 1`] = `
+<div>
+  <section
+    class="wrapper"
+  >
+    <div
+      class="innerWrapper"
+    >
+      <h1>
+        Congratulations
+      </h1>
+      <dl
+        class="list"
+      >
+        <dt>
+          Moves
+        </dt>
+        <dd>
+          24
+        </dd>
+        <dt>
+          Correct Moves
+        </dt>
+        <dd>
+          8
+        </dd>
+      </dl>
+      <button
+        class="button"
+      >
+        New game
+      </button>
+    </div>
+  </section>
+</div>
+`;
